@@ -1,0 +1,17 @@
+{
+  "defaultConnection": "default",
+  "connections": {
+    "default": {
+      "connector": "bookshelf",
+      "settings": {
+        "client": "mysql",
+        "database": "toeicApp",
+        "host": "45.117.170.232",
+        "port": "36032",
+        "username": "shop",
+        "password": "shop@2019"
+      },
+      "options": {}
+    }
+  }
+}
