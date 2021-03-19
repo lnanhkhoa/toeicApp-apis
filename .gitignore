@@ -115,3 +115,4 @@ exports
 # notes
 
 documentation/notes/*
+scripts/auto-deploy-server.sh
