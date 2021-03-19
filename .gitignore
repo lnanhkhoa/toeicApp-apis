@@ -116,3 +116,4 @@ build
 # notes
 
 documentation/notes/*
+scripts/auto-deploy-server.sh
