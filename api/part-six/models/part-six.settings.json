@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "part_sixes",
+  "info": {
+    "name": "partSix",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "indexNumber": {
+      "type": "integer"
+    },
+    "answerLists": {
+      "collection": "answer"
+    },
+    "paragraph": {
+      "type": "text"
+    }
+  }
+}

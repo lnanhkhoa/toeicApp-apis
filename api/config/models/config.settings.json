@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "configs",
+  "info": {
+    "name": "config",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "mongoDB": {
+      "type": "json"
+    },
+    "configID": {
+      "type": "uid"
+    }
+  }
+}

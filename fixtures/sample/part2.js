@@ -4,7 +4,7 @@ module.exports = [
     indexNumber: 1,
     file: ["file_link"],
     question: "Did you get up early this morning?",
-    answersList: [
+    answerLists: [
       {
         id: String(1),
         bullet: "A",
@@ -28,7 +28,7 @@ module.exports = [
     indexNumber: 2,
     file: ["file_link"],
     question: "How is your father?",
-    answersList: [
+    answerLists: [
       {
         id: String(2),
         bullet: "A",

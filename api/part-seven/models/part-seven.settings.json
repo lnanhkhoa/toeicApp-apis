@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "part_sevens",
+  "info": {
+    "name": "PartSeven",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "indexNumber": {
+      "type": "integer"
+    },
+    "questionLists": {
+      "collection": "question"
+    },
+    "paragraph": {
+      "type": "text"
+    }
+  }
+}

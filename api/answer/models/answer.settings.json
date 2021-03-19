@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "answers",
+  "info": {
+    "name": "answer",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "bullet": {
+      "type": "string"
+    },
+    "text": {
+      "type": "string"
+    },
+    "part": {
+      "type": "enumeration",
+      "enum": [
+        "one",
+        "second",
+        "third",
+        "fourth",
+        "fifth",
+        "sixth",
+        "seventh"
+      ]
+    }
+  }
+}

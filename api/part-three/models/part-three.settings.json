@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "part_threes",
+  "info": {
+    "name": "partThree",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "indexNumber": {
+      "type": "integer"
+    },
+    "questionLists": {
+      "collection": "question"
+    }
+  }
+}

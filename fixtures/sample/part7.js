@@ -7,12 +7,12 @@ Fire Damages Pet Food Warehouse
 Rochester: April 1st. late in the evening of March 29th, a fire caused extensive damage to the Huggy Dog Co. pet food warehouse on West 24th Street. There were no injuries. The only employee on the premises was security guard Russ Looupinek, who called in the fire at 9:47 p.m.  Fire fighters arrived minutes later and put out the blaze. Most of the loading area was destroyed. The cost of the damage is estimated at $400.000.
 Early investigations point to a faulty heating system as the cause of the fire. According to a Huggy Dog spokesperson, the company that installed the system, AMC Heaters, had ignored numerous complaints about the heating units over the past 4 weeks. Huggy Dog plans to take legal action against ANC Heaters.\
 `,
-    questionsList: [
+    questionLists: [
       {
         id: String(1),
         indexNumber: 0,
-        question: "What business is Huggy Dog in?",
-        answersList: [
+        questionText: "What business is Huggy Dog in?",
+        answerLists: [
           {
             id: String(1),
             bullet: "A",
@@ -39,8 +39,8 @@ Early investigations point to a faulty heating system as the cause of the fire. 
       {
         id: String(2),
         indexNumber: 1,
-        question: "What part of the warehouse was most affected by the fire?",
-        answersList: [
+        questionText: "What part of the warehouse was most affected by the fire?",
+        answerLists: [
           {
             id: String(1),
             bullet: "A",
@@ -67,8 +67,8 @@ Early investigations point to a faulty heating system as the cause of the fire. 
       {
         id: String(3),
         indexNumber: 2,
-        question: "What will the company do?",
-        answersList: [
+        questionText: "What will the company do?",
+        answerLists: [
           {
             id: String(1),
             bullet: "A",
@@ -103,12 +103,12 @@ For sale
 Low mileage and one careful previous owner.
 Don't miss this one! Classic F-platform. Has original doors and GM/Delco stereo! New exhaust, shocks, tires, and brakes. All replaced within last 6 months. Needs a paint touch-up and some minor repair work on fenders, rear bumper, and engine. Seat covers and Ziggy window shade included. Reliable transportation for a student, or as a second car. $400 or best offer. Cash only please. Call Randy, 398-3412, weekdays before 5 p.m.
 `,
-    questionsList: [
+    questionLists: [
       {
         id: String(1),
         indexNumber: 0,
-        question: "What part of the car needs repair?",
-        answersList: [
+        questionText: "What part of the car needs repair?",
+        answerLists: [
           {
             id: String(1),
             bullet: "A",
@@ -135,8 +135,8 @@ Don't miss this one! Classic F-platform. Has original doors and GM/Delco stereo!
       {
         id: String(2),
         indexNumber: 1,
-        question: "What form of payment does the seller want?",
-        answersList: [
+        questionText: "What form of payment does the seller want?",
+        answerLists: [
           {
             id: String(1),
             bullet: "A",
@@ -163,8 +163,8 @@ Don't miss this one! Classic F-platform. Has original doors and GM/Delco stereo!
       {
         id: String(3),
         indexNumber: 2,
-        question: "When could an interested buyer call?",
-        answersList: [
+        questionText: "When could an interested buyer call?",
+        answerLists: [
           {
             id: String(1),
             bullet: "A",

@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "part_fours",
+  "info": {
+    "name": "partFour",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "indexNumber": {
+      "type": "integer"
+    },
+    "questionLists": {
+      "collection": "question"
+    }
+  }
+}

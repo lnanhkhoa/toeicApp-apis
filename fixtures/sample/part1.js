@@ -3,7 +3,7 @@ module.exports = [
     id: String(1),
     indexNumber: 1,
     file: ["file_link"],
-    answersList: [
+    answerLists: [
       {
         id: String(1),
         bullet: "A",
@@ -31,7 +31,7 @@ module.exports = [
     id: String(2),
     indexNumber: 2,
     file: ["file_link"],
-    answersList: [
+    answerLists: [
       {
         id: String(1),
         bullet: "A",

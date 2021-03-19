@@ -3,12 +3,12 @@ module.exports = [
     id: String(1),
     indexNumber: 41,
     audioFile: ["file_link"],
-    questionsList: [
+    questionLists: [
       {
         id: String(1),
         indexNumber: 0,
-        question: "What is the man looking for?",
-        answersList: [
+        questionText: "What is the man looking for?",
+        answerLists: [
           {
             id: String(1),
             bullet: "A",
@@ -35,8 +35,8 @@ module.exports = [
       {
         id: String(2),
         indexNumber: 1,
-        question: "What is the woman's job?",
-        answersList: [
+        questionText: "What is the woman's job?",
+        answerLists: [
           {
             id: String(1),
             bullet: "A",
@@ -63,8 +63,8 @@ module.exports = [
       {
         id: String(3),
         indexNumber: 2,
-        question: "What does woman say to the man about directions?",
-        answersList: [
+        questionText: "What does woman say to the man about directions?",
+        answerLists: [
           {
             id: String(1),
             bullet: "A",
@@ -94,12 +94,12 @@ module.exports = [
     id: String(1),
     indexNumber: 44,
     audioFile: ["file_link"],
-    questionsList: [
+    questionLists: [
       {
         id: String(1),
         indexNumber: 0,
-        question: "What was the man supposed to do?",
-        answersList: [
+        questionText: "What was the man supposed to do?",
+        answerLists: [
           {
             id: String(1),
             bullet: "A",
@@ -126,8 +126,8 @@ module.exports = [
       {
         id: String(2),
         indexNumber: 1,
-        question: "What is the woman's reaction?",
-        answersList: [
+        questionText: "What is the woman's reaction?",
+        answerLists: [
           {
             id: String(1),
             bullet: "A",
@@ -154,8 +154,8 @@ module.exports = [
       {
         id: String(3),
         indexNumber: 2,
-        question: "Where is the woman going later?",
-        answersList: [
+        questionText: "Where is the woman going later?",
+        answerLists: [
           {
             id: String(1),
             bullet: "A",

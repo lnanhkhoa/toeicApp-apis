@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "part_twos",
+  "info": {
+    "name": "PartTwo",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "question": {
+      "type": "string"
+    },
+    "indexNumber": {
+      "type": "integer"
+    },
+    "answerKey": {
+      "type": "string"
+    },
+    "answerLists": {
+      "collection": "answer"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "questions",
+  "info": {
+    "name": "question",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "questionText": {
+      "type": "string"
+    },
+    "indexNumber": {
+      "type": "integer"
+    },
+    "answerKey": {
+      "type": "string"
+    },
+    "answerLists": {
+      "collection": "answer"
+    },
+    "part": {
+      "type": "string"
+    }
+  }
+}

@@ -3,12 +3,12 @@ module.exports = [
     id: String(1),
     indexNumber: 71,
     audioFile: ["file_link"],
-    questionsList: [
+    questionLists: [
       {
         id: String(1),
         indexNumber: 0,
-        question: "How long have the speaker's parents lived in California?",
-        answersList: [
+        questionText: "How long have the speaker's parents lived in California?",
+        answerLists: [
           {
             id: String(1),
             bullet: "A",
@@ -35,8 +35,8 @@ module.exports = [
       {
         id: String(2),
         indexNumber: 1,
-        question: "Where does the speaker's mother want to live?",
-        answersList: [
+        questionText: "Where does the speaker's mother want to live?",
+        answerLists: [
           {
             id: String(1),
             bullet: "A",
@@ -63,8 +63,8 @@ module.exports = [
       {
         id: String(3),
         indexNumber: 2,
-        question: "Where does the speaker want to live after graduation?",
-        answersList: [
+        questionText: "Where does the speaker want to live after graduation?",
+        answerLists: [
           {
             id: String(1),
             bullet: "A",
@@ -94,12 +94,12 @@ module.exports = [
     id: String(1),
     indexNumber: 74,
     audioFile: ["file_link"],
-    questionsList: [
+    questionLists: [
       {
         id: String(1),
         indexNumber: 0,
-        question: "Where is this announcement taking place?",
-        answersList: [
+        questionText: "Where is this announcement taking place?",
+        answerLists: [
           {
             id: String(1),
             bullet: "A",
@@ -126,8 +126,8 @@ module.exports = [
       {
         id: String(2),
         indexNumber: 1,
-        question: "What items are NOT on sale?",
-        answersList: [
+        questionText: "What items are NOT on sale?",
+        answerLists: [
           {
             id: String(1),
             bullet: "A",
@@ -154,8 +154,8 @@ module.exports = [
       {
         id: String(3),
         indexNumber: 2,
-        question: "How many of each item can one customer buy?",
-        answersList: [
+        questionText: "How many of each item can one customer buy?",
+        answerLists: [
           {
             id: String(1),
             bullet: "A",

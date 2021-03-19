@@ -1,0 +1,49 @@
+{
+  "kind": "collectionType",
+  "collectionName": "part_ones",
+  "info": {
+    "name": "partOne",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "indexNumber": {
+      "type": "integer"
+    },
+    "answerKey": {
+      "type": "string"
+    },
+    "image_link": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "audio_link": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "question": {
+      "type": "string"
+    },
+    "answerLists": {
+      "collection": "answer"
+    }
+  }
+}

@@ -2,8 +2,7 @@ module.exports = [
   {
     id: String(1),
     indexNumber: 141,
-    paragraph: [
-      `\
+    paragraph: `\
 Independent Television Broadcasting
 120 Manor Estate
 Broadgate
@@ -18,8 +17,7 @@ You felt that the language was inappropriate ___ television. I understand your c
 Sincerely,
 Michael A. Jameson
 `,
-    ],
-    answersList: [
+    answerLists: [
       {
         id: String(1),
         bullet: "A",
@@ -133,8 +131,7 @@ Kindest neighbor:     Antonio Lopez
   Antonio has won the ___ neighbor award 4 years in a row. Who will win next year? To claim your prize, please call the Town Hall Carnival office on 021-556-774. All winners will receive a $100 gift voucher for use at the Whitby Supermarket.
 ___ to all the winners.
 `,
-
-    answersList: [
+    answerLists: [
       {
         id: String(1),
         bullet: "A",
