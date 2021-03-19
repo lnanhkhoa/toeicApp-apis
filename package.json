@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "strapi develop",
     "dev:noreload": "PORT=1338 strapi develop",
-    "start": "PORT=1338 strapi start",
+    "start": "strapi start",
     "build": "strapi build",
     "strapi": "strapi",
     "lint": "eslint .",
