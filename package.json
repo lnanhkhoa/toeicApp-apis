@@ -10,7 +10,9 @@
     "build": "strapi build",
     "strapi": "strapi",
     "lint": "eslint .",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "git:deploy": "sh ./scripts/auto-deploy.sh",
+    "server:deploy": "sh ./scripts/auto-deploy-server.sh"
   },
   "devDependencies": {
     "@babel/core": "^7.13.10",
